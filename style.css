@@ -5,7 +5,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-}
 
 header {
   background: #333;
@@ -129,15 +128,16 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-  body { background-color:aquamarine}
   h1 {
     font-size: 24px;
   }
   h2 {
     font-size: 20px;
   }
-  #featured-article h2 {
-    font-size: 24px;
+ #featured-article h2 {
+  font-size: 42px;
+}
+}
   }
   h3 {
     font-size: 16px;
@@ -152,4 +152,3 @@ a:hover {
   section {
     padding: 8px;
   }
-}
